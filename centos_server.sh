@@ -14,7 +14,7 @@ systemctl start syslog-ng
 # Installing Elasticsearch
 
 cd /etc/yum.repos.d/
-cat elastic.txt > /etc/yum.repos.d/elastic.repo
+cat elastic > /etc/yum.repos.d/elastic.repo
 yum install -y elasticsearch
 echo cluster.name: syslog-ng >> /etc/elasticsearch/elasticsearch.yml
 systemctl enable elasticsearch
