@@ -1,4 +1,3 @@
-<p>&nbsp;</p>
 <p><strong>syslog-ng and Elasticsearch 6: getting started on RHEL/CentOS.</strong></p>
 <p>This is a quick how-to guide to get you started with syslog-ng (the current version is 3.13) and Elasticsearch 6 on RHEL/CentOS 7. For more detailed information, see the syslog-ng documentation on sending log messages to Elasticsearch. https://www.syslog-ng.com/technical-documents/doc/syslog-ng-open-source-edition/3.16/administration-guide</p>
 <p>&nbsp;</p>
