@@ -1,8 +1,7 @@
 #!/bin/bash
 systemctl stop rsyslog
 systemctl disable rsyslog
-apt-get remove rsyslog -y 
-apt-get purge rsyslog -y 
+apt-get autoremove rsyslog -y 
 apt-get install syslog-ng -y 
 systemctl enable syslog-ng 
 echo "Please enter your valid syslog-server IP address!"
